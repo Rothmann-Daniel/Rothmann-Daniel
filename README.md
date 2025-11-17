@@ -206,6 +206,14 @@ fun aboutMe() = listOf(
 
 ---
 
+**Данила Ротман** - Android Developer
+
+- 📧 Email: danilarothmann@gmail.com
+- ☎️ +7 921 568 68 55
+- 💼 LinkedIn: //in development
+- 📱 Telegram: [@danielrothmann](https://t.me/danielrothmann)
+- 🌐 GitHub: [@Rothmann-Daniel](https://github.com/Rothmann-Daniel)
+
 ## 💬 Давайте создадим что-то крутое!
 
 Всегда открыт для интересных проектов и сотрудничества. Если у вас есть идея или предложение:
