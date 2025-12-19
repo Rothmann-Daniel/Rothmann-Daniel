@@ -206,7 +206,7 @@ fun aboutMe() = listOf(
 
 - 📧 Email: danilarothmann@gmail.com
 - ☎️ +7 921 568 68 55
-- 💼 LinkedIn: //in development
+- 💼 LinkedIn: [Daniel Rothmann](https://www.linkedin.com/in/daniel-rothmann/)
 - 📱 Telegram: [@danielrothmann](https://t.me/danielrothmann)
 - 🌐 GitHub: [@Rothmann-Daniel](https://github.com/Rothmann-Daniel)
 
