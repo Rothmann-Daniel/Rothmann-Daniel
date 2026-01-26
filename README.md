@@ -2,15 +2,22 @@
 
 <div align="center">
   
-  ```kotlin
-  val androidDeveloper = Developer(
-      name = "Daniel Rothmann",
-      location = "Nha Trang, Vietnam 🌴",
-      passion = "Building Android apps that people love",
-      currentFocus = "Clean Architecture & Modern Android",
-      coffee = Double.MAX_VALUE
-  )
-  ```
+```kotlin
+val androidDeveloper = Developer(
+    name = "Daniel Rothmann",
+    location = getCurrentLocationType().displayName,
+    passion = "Building Android apps that people love",
+    currentFocus = "Clean Architecture & Modern Android",
+    coffee = Double.MAX_VALUE
+)
+
+enum class LocationType(val displayName: String) {
+    NHA_TRANG("Nha Trang, Vietnam 🌴"),
+    MOSCOW("Moscow, Russia 🇷🇺"),
+    SPB("Saint Petersburg, Russia 🏛️"),
+    TRAVELING("Traveling... ✈️")
+}
+```
   
   [![Telegram](https://img.shields.io/badge/Telegram-@danielrothmann-blue?style=flat&logo=telegram)](https://t.me/danielrothmann)
   ![Profile Views](https://komarev.com/ghpvc/?username=Rothmann-Daniel&color=blue&style=flat)
@@ -193,8 +200,8 @@ class MyApproach : DeveloperPhilosophy {
 ## 🌟 Интересные факты
 
 ```kotlin
-fun aboutMe() = listOf(
-    "🌍 Живу во Вьетнаме, работаю удаленно",
+fun getAboutMeFacts(): List<String> = listOf(
+    "🌍 Живу во Вьетнаме и России, работаю удалённо",
     "☕ Код пишу под качественный кофе",
     "🎮 Увлекаюсь мобильными и компьютерными играми",
     "🏍️ Обожаю мотопутешествия и особенно гастротуры",
