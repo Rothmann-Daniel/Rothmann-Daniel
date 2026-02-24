@@ -143,6 +143,7 @@ when (project) {
 
 | Проект | Описание | Стек |
 |--------|----------|------|
+| **BookStoreApp** | Приложение книжного магазина с каталогом книг, системой категорий и панелью администратора | Kotlin, Firebase, MVVM, Repository Pattern, Retrofit, Room Database, Koin |
 | **WeatherApp** | Приложение для просмотра текущей погоды | Kotlin, WeatherApi |
 | **JobSearchApp** | Приложение приложение для поиска вакансий | Kotlin, MVVM, SingleActivity, Repository Pattern, Retrofit, Room Database, Koin|
 | **RandomUser** | Приложение-Генератор пользователей | Kotlin, MVVM, Repository Pattern, Retrofit, Room Database, Koin|
